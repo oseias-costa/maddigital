@@ -12,6 +12,8 @@ export const HeadlineContainer = styled.section`
 export const TitleContainer = styled.div`
   text-align: center;
   position: relative;
+  max-width: 750px;
+  margin: 0 auto;
 `;
 
 export const Title = styled.h1`
