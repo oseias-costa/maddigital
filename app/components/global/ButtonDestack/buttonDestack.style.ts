@@ -9,6 +9,7 @@ export const ButtonContainer = styled.div`
   margin-top: 30px;
   border-radius: 40px;
   box-shadow: rgba(166, 84, 254, 1.5) 0px 5px 40px;
+  max-width: 353px;
 
   p {
     position: relative;

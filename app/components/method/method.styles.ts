@@ -8,6 +8,8 @@ export const MethodContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    z-index: 2;
 
     h2 {
         text-align: center;

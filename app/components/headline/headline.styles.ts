@@ -14,6 +14,7 @@ export const TitleContainer = styled.div`
   position: relative;
   max-width: 750px;
   margin: 0 auto;
+  z-index: 2;
 `;
 
 export const Title = styled.h1`
@@ -28,6 +29,7 @@ export const TitleDestack = styled(Title)`
 `;
 
 export const DescriptionContainer = styled.div`
+  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;

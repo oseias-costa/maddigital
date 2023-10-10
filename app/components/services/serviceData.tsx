@@ -1,9 +1,9 @@
-import Funnel from "../../../public/Images/headline/funnelmad.svg";
-import Google from "../../../public/Images/headline/google.svg";
-import Facebook from "../../../public/Images/headline/facebook.svg";
-import Chart from "../../../public/Images/headline/chart.svg";
-import Trafego from "../../../public/Images/headline/trafego.svg";
-import Inbound from "../../../public/Images/headline/inbound-services.svg";
+import Funnel from "../../../public/Images/services/funnelmad.svg";
+import Google from "../../../public/Images/services/google.svg";
+import Facebook from "../../../public/Images/services/facebook.svg";
+import Chart from "../../../public/Images/services/chart.svg";
+import Trafego from "../../../public/Images/services/trafego.svg";
+import Inbound from "../../../public/Images/services/inbound-services.svg";
 
  export const serviceData = [
     {
