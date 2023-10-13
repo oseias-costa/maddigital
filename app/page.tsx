@@ -1,3 +1,4 @@
+import Clients from "./components/clients/Clients";
 import Headline from "./components/headline/Headline";
 import Method from "./components/method/Method";
 import Results from "./components/results/Results";
@@ -10,6 +11,7 @@ export default function Home() {
       <Method />
       <Services />
       <Results />
+      <Clients />
     </main>
   );
 }
