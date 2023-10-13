@@ -7,7 +7,7 @@ import Strategy from '../../../public/Images/method/strategy.svg'
 
 export default function Method(){
     return(
-        <S.MethodContainer>
+        <S.MethodContainer id="Como-Funciona">
             <h2>Entenda como funciona o médodo Mad</h2>
             <S.MethodItem>
                 <S.Icon src={Captation} alt='Captação de dados e modo de conduta do público alvo' />

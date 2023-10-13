@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   background-color: #00172f;
   justify-content: space-around;
-  height: 80px;
+  height: 60px;
   align-items: center;
   box-shadow:
     rgba(0, 0, 0, 0.16) 0px 3px 6px,
@@ -35,6 +35,9 @@ export const Menu = styled.div`
 `;
 
 export const Logo = styled(Image)`
-  height: 50px;
+  height: 40px;
   width: auto;
+`;
+
+export const Icon = styled(Image)`
 `;

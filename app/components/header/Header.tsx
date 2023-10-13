@@ -7,9 +7,9 @@ export default function Header() {
     <HeaderContainer>
       <Logo src={LogoMad} alt="Logo Mad Digital" />
       <Menu>
-        <a href="#HowWork">Como funciona</a>
-        <a href="#OurServices">Serviços</a>
-        <a href="#Clients">Clientes</a>
+        <a href="#Como-Funciona">Como funciona</a>
+        <a href="#Nossos-Serviços">Serviços</a>
+        <a href="#Resultados">Resultados</a>
       </Menu>
     </HeaderContainer>
   );

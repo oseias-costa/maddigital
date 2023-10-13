@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styled from "styled-components";
+import ButtonDestack from "../global/ButtonDestack/ButtonDestack";
 
 export const ResultsContainer = styled.section`
   display: flex;
@@ -13,6 +14,10 @@ export const Img = styled(Image)`
   width: 550px;
   height: auto;
   display: flex;
+
+  @media(max-width: 740px){
+    width: 100%;
+  }
 `;
 
 export const ResultsDescription = styled.div`
@@ -22,12 +27,17 @@ export const ResultsDescription = styled.div`
   flex-direction: column;
   align-items: end;
 
-  @media (max-width: 740px) {
-    a {
+  @media(max-width: 740px){
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+    #button-destak {
       position: relative;
-      top: 120px;
+      top: 250px;
     }
   }
+
 `;
 
 export const Subtitle = styled.h3`
@@ -70,3 +80,11 @@ export const Icon = styled(Image)`
   height: auto;
   margin-left: 10px;
 `;
+
+export const ResultsButtonDestack = styled(ButtonDestack)`
+    @media(max-width: 740px) {
+      position: relative;
+      left: 120px;
+      margin-left: 20px;
+  }
+`

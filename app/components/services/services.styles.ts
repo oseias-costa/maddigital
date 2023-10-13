@@ -16,6 +16,7 @@ export const ServicesItems = styled.div`
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  justify-content: center;
   z-index: 4;
   padding-bottom: 15px;
 `;
@@ -46,6 +47,11 @@ export const ServiceItem = styled.div`
 
   h3 {
     width: 160px;
+  }
+
+  @media(max-width: 740px) {
+    padding-right: 0px;
+    padding-bottom: 5px;
   }
 `;
 

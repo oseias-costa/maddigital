@@ -2,11 +2,13 @@ import Image from "next/image";
 import styled from "styled-components";
 
 export const HeadlineContainer = styled.section`
-  height: calc(100vh - 80px);
+  /* height: calc(100vh - 80px); */
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 63px;
+  padding-bottom: 83px;
 `;
 
 export const TitleContainer = styled.div`
@@ -22,6 +24,10 @@ export const Title = styled.h1`
   display: inline;
   text-transform: uppercase;
   font-size: 42px;
+
+  @media(max-width: 740px) {
+    font-size: 32px;
+  }
 `;
 
 export const TitleDestack = styled(Title)`
@@ -34,6 +40,11 @@ export const DescriptionContainer = styled.div`
   flex-direction: column;
   align-items: center;
   position: relative;
+
+  @media(max-width: 740px){
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 `;
 
 export const HeadlineItemContainer = styled.div`
@@ -42,11 +53,16 @@ export const HeadlineItemContainer = styled.div`
   align-items: center;
 `;
 
-export const Icon = styled(Image)``;
+export const Icon = styled(Image)`
+`;
 
 export const Description = styled.p`
   text-align: left;
   color: #fffffe;
   max-width: 370px;
   font-size: 22px;
+
+  @media(max-width: 740px){
+    font-size: 18px;
+  }
 `;

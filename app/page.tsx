@@ -1,4 +1,6 @@
 import Clients from "./components/clients/Clients";
+import Footer from "./components/footer/Footer";
+import Whatsapp from "./components/global/whatsapp/Whatsapp";
 import Header from "./components/header/Header";
 import Headline from "./components/headline/Headline";
 import Method from "./components/method/Method";
@@ -14,6 +16,8 @@ export default function Home() {
       <Services />
       <Results />
       <Clients />
+      <Footer />
+      <Whatsapp />
     </main>
   );
 }

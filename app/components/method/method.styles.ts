@@ -19,6 +19,15 @@ export const MethodContainer = styled.section`
         font-size: 32px;
         padding-bottom: 45px;
     }
+
+    @media(max-width: 740px) {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        h2 {
+            font-size: 28px;
+        }
+    }
 `
 
 export const MethodItem = styled.div`
@@ -37,6 +46,14 @@ export const MethodItem = styled.div`
         p {
             color: #020202;
             font-size: 20px;
+        }
+    }
+
+    @media(max-width: 740px) {
+        div {
+            h3, p {
+                font-size: 18px;
+            }
         }
     }
 `

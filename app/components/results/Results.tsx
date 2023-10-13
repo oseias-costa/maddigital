@@ -7,7 +7,7 @@ import ButtonDestack from "../global/ButtonDestack/ButtonDestack";
 
 export default function Results() {
   return (
-    <S.ResultsContainer>
+    <S.ResultsContainer id="Resultados">
       <S.Img src={Photo} alt="Mad Digital" />
       <S.ResultsDescription>
         <div>
@@ -29,7 +29,7 @@ export default function Results() {
           </div>
           <S.Icon src={InvestimentIcon} alt="" />
         </S.Clients>
-        <ButtonDestack />
+        <ButtonDestack id="button-destak"/>
       </S.ResultsDescription>
     </S.ResultsContainer>
   );
