@@ -2,7 +2,7 @@ import Image from "next/image";
 import styled from "styled-components";
 
 export const HeadlineContainer = styled.section`
-  height: 100vh;
+  height: calc(100vh - 80px);
   position: relative;
   display: flex;
   flex-direction: column;
