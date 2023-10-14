@@ -12,6 +12,7 @@ export const ButtonContainer = styled.div`
   max-width: 353px;
   transition: .2s linear;
   cursor: pointer;
+  text-align: center;
 
   p {
     position: relative;

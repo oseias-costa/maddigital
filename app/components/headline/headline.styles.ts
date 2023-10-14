@@ -26,12 +26,13 @@ export const TitleContainer = styled.div`
 
 export const Title = styled.h1`
   color: #fffffe;
-  display: inline-block;
+  display: inline;
   text-transform: uppercase;
   font-size: 42px;
   
   @media(max-width: 740px) {
     font-size: 30px;
+    display: inline-block;
   }
 `;
 

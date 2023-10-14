@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 
 export const FooterContainer = styled.footer`
     display: flex;
-    background-color: #00172f;
+    background-color: #1c0f49;
     color: #fff;
     display: flex;
     padding: 3em;
@@ -26,7 +26,7 @@ export const FooterContainer = styled.footer`
     transition: .1s linear;
 
     &:hover {
-        color: #0d436e;
+        color: #794efe;
     }
 }
 
@@ -54,8 +54,8 @@ export const FooterContainer = styled.footer`
 }
 
 .Footer__Item-social:hover{
-    background-color: #fff;
-    fill: #00172f;
+    background-color: #794efe;
+    fill: #794efe;
 }
 
 @media (max-width: 740px){
