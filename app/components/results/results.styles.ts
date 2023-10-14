@@ -31,6 +31,7 @@ export const ResultsDescription = styled.div`
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    align-items: center;
 
     #button-destak {
       position: relative;
@@ -69,6 +70,12 @@ export const Clients = styled.div`
     font-size: 20px;
     font-weight: 800;
   }
+
+  /* @media(max-width: 740px){
+    align-items: center;
+    text-align: center;
+    flex-direction: row-reverse;
+  } */
 `;
 
 export const Investment = styled.div`

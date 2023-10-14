@@ -20,7 +20,7 @@ export default function Headline() {
         <S.TitleContainer>
           <S.Title>pare de procurar clientes e seja</S.Title>
           <S.TitleDestack>&nbsp;encontrado&nbsp;</S.TitleDestack>
-          <S.Title> por eles</S.Title>
+          <S.Title>por eles</S.Title>
         </S.TitleContainer>
         <S.DescriptionContainer>
           <HeadlineItem

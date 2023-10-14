@@ -17,16 +17,21 @@ export const TitleContainer = styled.div`
   max-width: 750px;
   margin: 0 auto;
   z-index: 2;
+
+  @media(max-width: 740px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 `;
 
 export const Title = styled.h1`
   color: #fffffe;
-  display: inline;
+  display: inline-block;
   text-transform: uppercase;
   font-size: 42px;
-
+  
   @media(max-width: 740px) {
-    font-size: 32px;
+    font-size: 30px;
   }
 `;
 
