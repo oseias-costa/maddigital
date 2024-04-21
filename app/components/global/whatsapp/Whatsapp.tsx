@@ -6,7 +6,7 @@ import { Whats, WhatsIcon } from "./whatsapp.styles";
 export default function Whatsapp() {
   return (
     <Whats>
-      <a href="https://nux514f6cjp.typeform.com/to/itgZsLcm" target="_blank">
+      <a href="https://forms.monday.com/forms/908b96151628d9f2971ee60cb1bdb7a0?r=use1" target="_blank">
         <WhatsIcon
           src={WhatsSVG}
           alt="Link para o WhatsApp Mad Digital"

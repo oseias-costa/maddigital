@@ -16,7 +16,7 @@ export default function Footer(){
                     <a href='https://www.instagram.com/maddigital__/' target='_blank'>
                         <Icon src={Instagram} alt='Instagram Mad Digital' className='Footer__Item-social' />
                     </a>
-                    <a href='https://nux514f6cjp.typeform.com/to/itgZsLcm' target='_blanck'>
+                    <a href='https://forms.monday.com/forms/908b96151628d9f2971ee60cb1bdb7a0?r=use1' target='_blanck'>
                         <Icon src={Whatsapp} alt='Instagram Mad Digital' className='Footer__Item-social' />
                     </a>
                 </div>
